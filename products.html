@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Catalog – Technocrats Hyd | Hospitality Equipment</title>
+  <meta name="description" content="Browse our complete catalog of hospitality equipment including bedroom equipment, bathroom accessories, housekeeping supplies, tabletop products, and car coolers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">T</div>
+        <div class="logo-text">Technocrats <span>Hyd</span></div>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="industries.html">Industries</a>
+        <a href="contact.html">Contact</a>
+        <a href="quote.html" class="nav-cta">Get Quote</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span class="current">Product Catalog</span>
+      </div>
+      <h1>Product Catalog</h1>
+      <p>Explore our comprehensive range of hospitality equipment and supplies</p>
+    </div>
+  </section>
+
+  <!-- PRODUCT CATALOG -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Bar -->
+      <div class="filter-bar fade-in">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="bedroom">Bedroom</button>
+        <button class="filter-btn" data-filter="bathroom">Bathroom</button>
+        <button class="filter-btn" data-filter="housekeeping">Housekeeping</button>
+        <button class="filter-btn" data-filter="tabletop">Tabletop</button>
+        <button class="filter-btn" data-filter="car">Car Products</button>
+      </div>
+
+      <!-- Catalog Grid -->
+      <div class="catalog-grid">
+        <!-- BEDROOM PRODUCTS -->
+        <div class="catalog-card fade-in" data-category="bedroom" id="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Premium Minibar">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Minibars</h4>
+            <p>Silent absorption minibars with customizable panels. Available in 20L to 60L capacities.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Electronic Room Safe">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Electronic Safes</h4>
+            <p>Digital and RFID-enabled room safes with audit trail capabilities for guest security.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Hotel Room Phone">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Room Phones & Multimedia Docks</h4>
+            <p>IP and analog room phones, MediaJack panels, iMediaCast streaming solutions.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Kettle and Coffee Maker">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Kettles & Coffee Makers</h4>
+            <p>Premium electric kettles and in-room coffee makers with elegant tray sets.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Mattress and Rollaway Bed">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Mattresses & Rollaway Beds</h4>
+            <p>Hotel-grade mattresses and space-saving rollaway beds for guest comfort.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Ironing Board and Luggage Rack">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Ironing Boards & Luggage Racks</h4>
+            <p>Wall-mounted and freestanding ironing boards, foldable luggage racks and bedroom amenities.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bedroom">
+          <div class="catalog-card-image">
+            <img src="images/bedroom-equipment.png" alt="Room Control System">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bedroom Equipment</div>
+            <h4>Room Control Systems</h4>
+            <p>Smart room automation including lighting controls, HVAC panels, and guest interface systems.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <!-- BATHROOM PRODUCTS -->
+        <div class="catalog-card fade-in" data-category="bathroom" id="bathroom">
+          <div class="catalog-card-image">
+            <img src="images/bathroom-equipment.png" alt="Wall Mounted Hair Dryer">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bathroom Equipment</div>
+            <h4>Hair Dryers</h4>
+            <p>Wall-mounted and drawer-mounted hair dryers with professional-grade motors and quiet operation.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bathroom">
+          <div class="catalog-card-image">
+            <img src="images/bathroom-equipment.png" alt="Magnifying Mirror">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bathroom Equipment</div>
+            <h4>Magnifying & Shaving Mirrors</h4>
+            <p>LED illuminated magnifying mirrors with 3x–8x magnification for premium bathroom experience.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="bathroom">
+          <div class="catalog-card-image">
+            <img src="images/bathroom-equipment.png" alt="Bathroom Accessories">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Bathroom Equipment</div>
+            <h4>Bathroom Accessories & Scales</h4>
+            <p>Complete bathroom accessory sets including dispensers, scales, phones, and organizers.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <!-- HOUSEKEEPING PRODUCTS -->
+        <div class="catalog-card fade-in" data-category="housekeeping" id="housekeeping">
+          <div class="catalog-card-image">
+            <img src="images/housekeeping-supplies.png" alt="Housekeeping Trolley">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Housekeeping Supplies</div>
+            <h4>Housekeeping Trolleys</h4>
+            <p>Heavy-duty, ergonomic housekeeping trolleys with customizable compartments and linen bags.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="housekeeping">
+          <div class="catalog-card-image">
+            <img src="images/housekeeping-supplies.png" alt="Fire Proof Door">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Housekeeping Supplies</div>
+            <h4>Fire & Sound Proof Doors</h4>
+            <p>Certified fire-rated and sound-proofed doors meeting international safety regulations.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="housekeeping">
+          <div class="catalog-card-image">
+            <img src="images/housekeeping-supplies.png" alt="LED Lighting">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Housekeeping Supplies</div>
+            <h4>LED Lighting & Matting Solutions</h4>
+            <p>Energy-efficient LED lighting systems and professional matting solutions for all areas.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <!-- TABLETOP PRODUCTS -->
+        <div class="catalog-card fade-in" data-category="tabletop" id="tabletop">
+          <div class="catalog-card-image">
+            <img src="images/tabletop-supplies.png" alt="Porcelain Crockery">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Tabletop Supplies</div>
+            <h4>Crockery Collection</h4>
+            <p>Premium porcelain, bone china, and chip-resistant crockery designed for high-volume commercial use.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <div class="catalog-card fade-in" data-category="tabletop">
+          <div class="catalog-card-image">
+            <img src="images/tabletop-supplies.png" alt="Premium Cutlery">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Tabletop Supplies</div>
+            <h4>Cutlery</h4>
+            <p>Stainless steel and silver-plated cutlery sets for fine dining and casual restaurant settings.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+
+        <!-- CAR PRODUCTS -->
+        <div class="catalog-card fade-in" data-category="car" id="car">
+          <div class="catalog-card-image">
+            <img src="images/car-products.png" alt="Car Cooler">
+          </div>
+          <div class="catalog-card-content">
+            <div class="catalog-card-category">Car Products</div>
+            <h4>Car Coolers</h4>
+            <p>Portable car coolers for sedans and SUVs, ideal for chauffeur services and VIP transport.</p>
+            <a href="product-detail.html" class="btn btn-outline" style="padding: 8px 20px; font-size: 0.8rem;">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BROCHURE CTA -->
+  <section class="section cta-section">
+    <div class="container fade-in">
+      <h2>Download Our Product Brochure</h2>
+      <p>Get the complete Technocrats Hyd product catalog with specifications, images, and pricing guidelines.</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn btn-primary">Download Brochure (PDF)</a>
+        <a href="quote.html" class="btn btn-gold-outline">Request Custom Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="logo-icon">T</div>
+            <div class="logo-text">Technocrats <span>Hyd</span></div>
+          </a>
+          <p>Your trusted partner for complete hospitality equipment solutions. Supplying premium hotel room equipment, bathroom accessories, housekeeping supplies, and tabletop products since 2010.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="Twitter">x</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="quote.html">Request Quote</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Product Categories</h4>
+          <ul>
+            <li><a href="products.html#bedroom">Bedroom Equipment</a></li>
+            <li><a href="products.html#bathroom">Bathroom Equipment</a></li>
+            <li><a href="products.html#housekeeping">Housekeeping Supplies</a></li>
+            <li><a href="products.html#tabletop">Tabletop Supplies</a></li>
+            <li><a href="products.html#car">Car Products</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:info@technocratshyd.com">info@technocratshyd.com</a></li>
+            <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><a href="#">Hyderabad, Telangana, India</a></li>
+            <li><a href="#">Mon – Sat: 9:00 AM – 6:00 PM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Technocrats Hyd. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP BUTTON -->
+  <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20hospitality%20equipment." target="_blank" class="whatsapp-btn" aria-label="Contact on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
